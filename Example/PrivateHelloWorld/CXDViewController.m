@@ -7,6 +7,7 @@
 //
 
 #import "CXDViewController.h"
+#import "PrintHelloWorldViewController.h"
 
 @interface CXDViewController ()
 
@@ -18,6 +19,17 @@
 {
     [super viewDidLoad];
 	// Do any additional setup after loading the view, typically from a nib.
+    
+    UIButton *button = [UIButton buttonWithType:UIButtonTypeCustom];
+    button.backgroundColor = [UIColor systemRedColor];
+    button.frame = CGRectMake(60, 120, 80, 80);
+    [button addTarget:self action:@selector(buttonClick) forControlEvents:UIControlEventTouchUpInside];
+    [self.view addSubview:button];
+    
+}
+
+- (void)buttonClick {
+    [PrintHelloWorldViewController printString];
 }
 
 - (void)didReceiveMemoryWarning

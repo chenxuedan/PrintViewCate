@@ -64,9 +64,9 @@
 		873B8AEA1B1F5CCA007FD442 /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = Main.storyboard; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		939B61F75A95F242E959CFDD /* Pods_PrivateHelloWorld_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_PrivateHelloWorld_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		CB43E9B87D97B871E4934D03 /* Pods-PrivateHelloWorld_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PrivateHelloWorld_Tests.release.xcconfig"; path = "Target Support Files/Pods-PrivateHelloWorld_Tests/Pods-PrivateHelloWorld_Tests.release.xcconfig"; sourceTree = "<group>"; };
-		D2C4AE5B36AD36AE9E240666 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
-		D7854A1DE15B235069C7E9ED /* PrivateHelloWorld.podspec */ = {isa = PBXFileReference; includeInIndex = 1; name = PrivateHelloWorld.podspec; path = ../PrivateHelloWorld.podspec; sourceTree = "<group>"; };
-		DAA4525B6358EFA7DBBE3248 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; name = README.md; path = ../README.md; sourceTree = "<group>"; };
+		D2C4AE5B36AD36AE9E240666 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
+		D7854A1DE15B235069C7E9ED /* PrivateHelloWorld.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = PrivateHelloWorld.podspec; path = ../PrivateHelloWorld.podspec; sourceTree = "<group>"; };
+		DAA4525B6358EFA7DBBE3248 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -193,7 +193,6 @@
 				7E14F680A5525125358460BE /* Pods-PrivateHelloWorld_Tests.debug.xcconfig */,
 				CB43E9B87D97B871E4934D03 /* Pods-PrivateHelloWorld_Tests.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};
@@ -249,6 +248,9 @@
 				LastUpgradeCheck = 0720;
 				ORGANIZATIONNAME = chenxuedan;
 				TargetAttributes = {
+					6003F589195388D20070C39A = {
+						DevelopmentTeam = J355KA6BNU;
+					};
 					6003F5AD195388D20070C39A = {
 						TestTargetID = 6003F589195388D20070C39A;
 					};
@@ -259,6 +261,7 @@
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
 			knownRegions = (
+				English,
 				en,
 				Base,
 			);
@@ -513,6 +516,7 @@
 			baseConfigurationReference = 7D4B911E57FF5703AA21DEA7 /* Pods-PrivateHelloWorld_Example.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = J355KA6BNU;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "PrivateHelloWorld/PrivateHelloWorld-Prefix.pch";
 				INFOPLIST_FILE = "PrivateHelloWorld/PrivateHelloWorld-Info.plist";
@@ -529,6 +533,7 @@
 			baseConfigurationReference = 0043E35C6C0C2BF4F1C36E62 /* Pods-PrivateHelloWorld_Example.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = J355KA6BNU;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "PrivateHelloWorld/PrivateHelloWorld-Prefix.pch";
 				INFOPLIST_FILE = "PrivateHelloWorld/PrivateHelloWorld-Info.plist";
